@@ -7,6 +7,20 @@
   padding: 0;
 }
 
+.common-primary-btn {
+  padding: 11px 16px;
+  border-radius: 4px;
+  background: var(--primary-color);
+  color: white;
+  font-family: "Kumbh Sans";
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
 /* navbar code start */
 
 .navbar-wrapper {
@@ -27,7 +41,8 @@
 
 .navbar-links-wrapper ul {
   display: flex;
-  /* gap: 0 30px; */
+  gap: 0 30px;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar-links-wrapper li {
@@ -37,21 +52,21 @@
 .navbar-links-wrapper li a {
   color: #4a556c;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Kumbh Sans";
   text-decoration: none;
   letter-spacing: -0.3px;
-  padding: 5px 15px;
+  /* padding: 5px 15px; */
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
 
 .navbar-links-wrapper li a:hover {
-  background: #f1efef;
- /* color: #030303; */
+  /* background: #f1efef; */
+  color: var(--primary-color);
 }
 
-.navbar-links-wrapper button {
+.common-primary-btn {
   padding: 11px 16px;
   border-radius: 4px;
   background: var(--primary-color);
@@ -65,8 +80,130 @@
   transition: all 0.2s ease-in-out;
 }
 
-.navbar-links-wrapper button:hover {
+.common-primary-btn:hover {
   background: #22c0a6;
 }
 
+.nav-icon {
+  cursor: pointer;
+}
+
+.close-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.nav-and-close-icon {
+    display: none;
+}
+ 
+
 /* navbar code end  */
+
+/* banner start */
+
+.banner {
+  background: #faf8f6;
+}
+
+.banner-content {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-between;
+  /* gap: 100px; */
+  padding: 70px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.banner-content .common-class-for-both {
+  width: 50%;
+  /* border: 1px solid green; */
+}
+
+.wave-img {
+  position: absolute;
+  top: 20px;
+}
+
+.banner-text-area span {
+  color: #4a556c;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+  opacity: 0.4;
+}
+
+.banner-text-area h2 {
+  color: #333461;
+  font-family: "Kumbh Sans";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.72px;
+  margin-bottom: 18px;
+}
+
+.banner-text-area p {
+  color: #4a556c;
+  font-family: "Kumbh Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+.banner-img-area img {
+  height: 603px;
+  width: 472px;
+}
+
+.banner-img-area {
+  text-align: center;
+  position: relative;
+}
+
+.target-success-rate {
+  background: white;
+  padding: 24px;
+  width: 237px;
+  height: 104px;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.target-success-rate img {
+  width: 56px;
+  height: 56px;
+}
+
+.target-success-inner-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.target-success-inner-text h4 {
+  color: #333461;
+  font-family: "AvertaStd-Black";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -0.72px;
+}
+
+.target-success-inner-text p {
+  color: #4a556c;
+  text-align: center;
+  font-family: "Kumbh Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.12px;
+}
+/* banner end  */
