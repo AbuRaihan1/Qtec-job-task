@@ -94,9 +94,8 @@
 }
 
 .nav-and-close-icon {
-    display: none;
+  display: none;
 }
- 
 
 /* navbar code end  */
 
@@ -108,9 +107,8 @@
 
 .banner-content {
   display: flex;
-  /* border: 2px solid red; */
   justify-content: space-between;
-  /* gap: 100px; */
+  gap: 100px;
   padding: 70px;
   padding-top: 100px;
   position: relative;
@@ -124,6 +122,10 @@
 .wave-img {
   position: absolute;
   top: 20px;
+}
+
+.banner-text-area  {
+    margin-top: 60px;
 }
 
 .banner-text-area span {
@@ -154,27 +156,26 @@
   font-weight: 400;
   margin-bottom: 17px;
 }
-.banner-img-area img {
-  height: 603px;
-  width: 472px;
-}
 
 .banner-img-area {
   text-align: center;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .target-success-rate {
-  background: white;
   padding: 24px;
   width: 237px;
-  height: 104px;
+  height: 94px;
   position: absolute;
-  margin-top: -70px;
-  margin-left: -20px;
+  top: -65px;
+  left: -150px;
   display: flex;
   align-items: center;
   gap: 16px;
+  background: #fff;
+  box-shadow: 0px 16px 96px 0px rgba(111, 124, 144, 0.16);
 }
 
 .target-success-rate img {
@@ -205,5 +206,16 @@
   font-style: normal;
   font-weight: 400;
   letter-spacing: -0.12px;
+}
+
+.banner-img-area-content {
+  position: relative;
+  width: 462px;
+  height: 603px;
+}
+
+.banner-img-area img {
+  width: 100%;
+  height: 100%;
 }
 /* banner end  */

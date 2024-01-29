@@ -36,7 +36,6 @@
     padding: 0;
     text-align: left;
     margin: 0;
-
   }
   .nav-icon {
     display: block;
@@ -49,10 +48,47 @@
   .nav-and-close-icon {
     display: block;
   }
+
+  /* header content start  */
+
+  .banner-content {
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 70px !important;
+  }
+
+  .banner-content .common-class-for-both {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .target-success-rate {
+    top: -80px;
+    left: 70px;
+  }
+
+  .banner-content {
+    gap: 130px;
+  }
 }
 
 @media screen and (max-width: 762px) {
   .navbar-wrapper {
     padding: 0 40px;
+  }
+
+  .banner-text-area h2 {
+    font-size: 50px;
+  }
+
+  .banner-content {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .banner-text-area h2 {
+    font-size: 30px;
   }
 }
