@@ -1,0 +1,49 @@
+/* navbar responsive code  */
+.nav-icon {
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .navbar-links-wrapper {
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    background: rgb(204, 196, 196);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 20px;
+  }
+
+  .navbar-links-wrapper ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+
+  .navbar-links-wrapper ul li {
+    text-align: left;
+  }
+
+  .navbar-links-wrapper ul li a {
+    padding: 0;
+    text-align: left;
+    margin: 0;
+    border: 2px solid red;
+  }
+  .nav-icon {
+    display: block;
+  }
+
+  .active-nav {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .navbar-wrapper {
+    padding: 0 40px;
+  }
+}
