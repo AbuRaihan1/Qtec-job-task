@@ -124,8 +124,8 @@
   top: 20px;
 }
 
-.banner-text-area  {
-    margin-top: 60px;
+.banner-text-area {
+  margin-top: 60px;
 }
 
 .banner-text-area span {
@@ -211,7 +211,7 @@
 .banner-img-area-content {
   position: relative;
   width: 462px;
-  height: 603px;
+  height: 583px;
 }
 
 .banner-img-area img {
@@ -219,3 +219,40 @@
   height: 100%;
 }
 /* banner end  */
+
+/* main section starts  */
+
+/* i can help you section start  */
+.i-can-help-you {
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding: 96px 150px 61px 150px;
+  position: relative;
+}
+
+.i-can-help-you .blue-wave {
+  position: absolute;
+  top: 96px;
+  left: 150px;
+}
+
+.i-can-help-you-heading h2 {
+  color: #333461;
+  font-family: "Kumbh Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.48px;
+  margin-top: 32px;
+}
+
+.i-can-help-you-texts p {
+  color: #4a556c;
+  font-family: "Kumbh Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 20px;
+}

@@ -60,6 +60,17 @@
   .banner-content .common-class-for-both {
     width: 100%;
   }
+
+  /* i can help you start  */
+  .i-can-help-you {
+    padding: 96px 70px 61px 70px;
+  }
+
+  .i-can-help-you .blue-wave {
+    position: absolute;
+    top: 96px;
+    left: 70px;
+  }
 }
 
 @media screen and (max-width: 968px) {
@@ -71,6 +82,21 @@
   .banner-content {
     gap: 130px;
   }
+
+  /* i can help you start  */
+  .i-can-help-you {
+    grid-template-columns: 1fr;
+    padding: 96px 20px 61px 20px;
+
+  }
+
+  .i-can-help-you .blue-wave {
+    position: absolute;
+    top: 96px;
+    left: 20px;
+  }
+
+  
 }
 
 @media screen and (max-width: 762px) {
@@ -84,6 +110,11 @@
 
   .banner-content {
     padding: 20px;
+  }
+
+  .banner-img-area-content {
+    width: 100%;
+    height: 500px;
   }
 }
 
