@@ -152,6 +152,12 @@
   .notification-heading h2 {
     font-size: 24px;
   }
+
+  /* footer start  */
+
+  .footer {
+    padding: 64px 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -190,6 +196,12 @@
   .article-blog h2 {
     font-size: 25px;
   }
+
+  /* footer start  */
+
+  .footer-content-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -204,5 +216,11 @@
 
   .common-class-coaching-consultation {
     text-align: center;
+  }
+
+  /* footer start  */
+
+  .footer-content-wrapper {
+    grid-template-columns: 1fr;
   }
 }

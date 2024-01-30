@@ -455,3 +455,59 @@
   outline: none;
 }
 /* notification subscription end  */
+
+/* footer start  */
+
+.footer {
+  background: white;
+  padding: 64px;
+}
+
+.footer-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.logo-section p {
+  color: rgba(74, 85, 108, 0.5);
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 32px;
+}
+
+.logo-page-contact-common ul {
+}
+
+.logo-page-contact-common h2 {
+  color: #333461;
+  font-family: "Kumbh Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.logo-page-contact-common ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.logo-page-contact-common ul li a {
+  text-decoration: none;
+  color: rgba(74, 85, 108, 0.5);
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  transition: all .2s ease-in;
+}
+
+.logo-page-contact-common ul li a:hover {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* footer end  */
