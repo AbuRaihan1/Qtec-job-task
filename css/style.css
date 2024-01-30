@@ -292,3 +292,59 @@
   margin-top: 16px;
 }
 /* coaching consultation group coaching end  */
+
+/* testimonial start  */
+.testimonial {
+  background: #faf8f6;
+  padding-top: 120px;
+  padding-bottom: 219px;
+  padding-left: 150px;
+}
+
+.testimonial-heading h2 {
+  color: #333461;
+  font-family: "Kumbh Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.testimonial-clients {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 37px;
+  grid-gap: 37px;
+}
+
+.testimonial-clients-content {
+  padding: 48px;
+  background: white;
+  box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+}
+
+.testimonial-clients-content p {
+  color: #4a556c;
+  font-family: "Kumbh Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.testimonial-clients-content h3 {
+  color: #333461;
+  font-family: "Kumbh Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.testimonial-clients-content > img {
+  margin-top: 15px;
+}
+
+.ratings {
+  margin-top: 15px;
+}
+
+/* testimonial end  */

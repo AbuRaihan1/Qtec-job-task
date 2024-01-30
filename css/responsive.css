@@ -73,9 +73,17 @@
   }
 
   /* coaching consultation start  */
-
   .coaching-consultation {
     padding: 0 70px;
+  }
+
+  /* testimonial start  */
+
+  .testimonial {
+    padding-left: 70px;
+  }
+  .testimonial-clients {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -107,6 +115,11 @@
     grid-template-columns: 1fr 1fr;
     padding: 0 20px;
   }
+
+  /* testimonial start */
+  .testimonial {
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -131,6 +144,12 @@
   /* .coaching-consultation {
     grid-template-columns: 1fr;
   } */
+
+  /* testimonial  */
+
+  .testimonial-clients {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -141,7 +160,6 @@
   /* coaching consultation start  */
   .coaching-consultation {
     grid-template-columns: 1fr;
-
   }
 
   .common-class-coaching-consultation {
