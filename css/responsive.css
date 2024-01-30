@@ -102,8 +102,6 @@
     font-size: 26px;
   }
 
-  
-
   /* notification section  */
   .notification-subscription {
     padding: 48px 70px;
@@ -178,6 +176,7 @@
   .notification-subscription {
     padding: 48px 20px;
     flex-direction: column;
+    
   }
 
   .notification-heading h2 {

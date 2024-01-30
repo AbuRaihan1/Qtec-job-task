@@ -82,6 +82,7 @@
 
 .common-primary-btn:hover {
   background: #22c0a6;
+  transform: scale(1.06);
 }
 
 .nav-icon {
@@ -320,6 +321,12 @@
   padding: 48px;
   background: white;
   box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+  transition: all 0.2s ease-in-out;
+}
+
+.testimonial-clients-content:hover {
+  /* margin-top: -5px; */
+  transform: translateY(-15px);
 }
 
 .testimonial-clients-content p {
@@ -372,6 +379,7 @@
 .blog-post {
   border: 1px solid #edeff5;
   background: #fff;
+  overflow: hidden;
 }
 
 .article-text {
@@ -380,6 +388,11 @@
 
 .blog-post img {
   width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.blog-post img:hover {
+  transform: scale(1.1);
 }
 
 .article-text h4 {
@@ -397,6 +410,7 @@
   font-style: normal;
   font-weight: 400;
   margin-top: 12px;
+  text-align: justify;
 }
 
 .read-more-blog-btn {
