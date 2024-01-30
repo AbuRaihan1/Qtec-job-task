@@ -85,6 +85,14 @@
   .testimonial-clients {
     grid-template-columns: 1fr 1fr;
   }
+
+  /* article section  */
+  .article-blog {
+    padding: 97px 70px;
+  }
+  .blog-post-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -120,6 +128,13 @@
   .testimonial {
     padding-left: 20px;
   }
+
+  .article-blog {
+    padding: 97px 20px;
+  }
+  .article-blog h2 {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -149,6 +164,14 @@
 
   .testimonial-clients {
     grid-template-columns: 1fr;
+  }
+
+  .blog-post-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .article-blog h2 {
+    font-size: 25px;
   }
 }
 

@@ -348,3 +348,62 @@
 }
 
 /* testimonial end  */
+
+.blog-post-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.article-blog {
+  padding: 97px 140px;
+}
+
+.article-blog h2 {
+  color: #333461;
+  text-align: center;
+  font-family: "Kumbh Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 63px;
+}
+
+.blog-post {
+  border: 1px solid #edeff5;
+  background: #fff;
+}
+
+.article-text {
+  padding: 24px 28px;
+}
+
+.blog-post img {
+  width: 100%;
+}
+
+.article-text h4 {
+  color: #333461;
+  font-family: "Kumbh Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.article-text p {
+  color: #4a556c;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.read-more-blog-btn {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.read-more-blog-btn button {
+  width: 250px;
+}
