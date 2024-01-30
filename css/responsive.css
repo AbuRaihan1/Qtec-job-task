@@ -4,6 +4,7 @@
 }
 
 @media screen and (max-width: 1100px) {
+  /* navbar code start  */
   .navbar-links-wrapper {
     display: none;
     flex-direction: column;
@@ -49,8 +50,9 @@
     display: block;
   }
 
-  /* header content start  */
+  /* navbar code end  */
 
+  /* header code start  */
   .banner-content {
     flex-direction: column;
     padding: 40px;
@@ -60,6 +62,8 @@
   .banner-content .common-class-for-both {
     width: 100%;
   }
+
+  /* header code end  */
 
   /* i can help you start  */
   .i-can-help-you {
@@ -71,20 +75,22 @@
     top: 96px;
     left: 70px;
   }
+  /* i can help you end  */
 
   /* coaching consultation start  */
   .coaching-consultation {
     padding: 0 70px;
   }
+  /* coaching consultation end  */
 
   /* testimonial start  */
-
   .testimonial {
     padding-left: 70px;
   }
   .testimonial-clients {
     grid-template-columns: 1fr 1fr;
   }
+  /* testimonial end  */
 
   /* article section  */
   .article-blog {
@@ -93,7 +99,9 @@
   .blog-post-wrapper {
     grid-template-columns: 1fr 1fr;
   }
+  /* article blog section end  */
 
+  /* online mockup start  */
   .online-session {
     margin-left: 70px;
     margin-right: 70px;
@@ -101,12 +109,14 @@
   .online-session-text-side h2 {
     font-size: 26px;
   }
+  /* online mockup start  */
 
-  /* notification section  */
+  /* notification section start   */
   .notification-subscription {
     padding: 48px 70px;
     flex-direction: column;
   }
+  /* notification section end   */
 }
 
 @media screen and (max-width: 992px) {
@@ -176,7 +186,6 @@
   .notification-subscription {
     padding: 48px 20px;
     flex-direction: column;
-    
   }
 
   .notification-heading h2 {
@@ -192,7 +201,7 @@
 
 @media screen and (max-width: 768px) {
   .navbar-wrapper {
-    padding: 0 40px;
+    padding: 0 20px;
   }
 
   .banner-text-area h2 {

@@ -1,3 +1,5 @@
+/* common stylling start  */
+
 :root {
   --primary-color: #20ad96;
 }
@@ -20,6 +22,13 @@
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
+
+.common-primary-btn:hover {
+  background: #22c0a6;
+  transform: scale(1.06);
+}
+
+/* common stylling end  */
 
 /* navbar code start */
 
@@ -55,34 +64,12 @@
   font-weight: 500;
   font-family: "Kumbh Sans";
   text-decoration: none;
-  letter-spacing: -0.3px;
-  /* padding: 5px 15px; */
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
 
 .navbar-links-wrapper li a:hover {
-  /* background: #f1efef; */
   color: var(--primary-color);
-}
-
-.common-primary-btn {
-  padding: 11px 16px;
-  border-radius: 4px;
-  background: var(--primary-color);
-  color: white;
-  font-family: "Kumbh Sans";
-  font-size: 14px;
-  font-weight: 600;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.common-primary-btn:hover {
-  background: #22c0a6;
-  transform: scale(1.06);
 }
 
 .nav-icon {
@@ -97,7 +84,6 @@
 .nav-and-close-icon {
   display: none;
 }
-
 /* navbar code end  */
 
 /* banner start */
@@ -224,7 +210,6 @@
 /* main section starts  */
 
 /* i can help you section start  */
-
 .i-can-help-you {
   background: white;
   display: grid;
@@ -258,9 +243,9 @@
   font-weight: 400;
   margin-bottom: 20px;
 }
+/* i can help you section end  */
 
 /* coaching consultation group coaching start  */
-
 .coaching-consultation {
   padding: 0 150px;
   padding-bottom: 61px;
@@ -353,9 +338,9 @@
 .ratings {
   margin-top: 15px;
 }
-
 /* testimonial end  */
 
+/* article blog post start  */
 .blog-post-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -421,9 +406,9 @@
 .read-more-blog-btn button {
   width: 250px;
 }
+/* article blog post start  */
 
 /* online mockup complimentary start  */
-
 .online-session {
   border-radius: 24px;
   background: #faf8f6;
@@ -474,7 +459,6 @@
 /* online mockup complimentary End  */
 
 /* notification subscription start  */
-
 .notification-subscription {
   background: #faf8f6;
   padding: 48px 80px;
@@ -522,7 +506,6 @@
 /* notification subscription end  */
 
 /* footer start  */
-
 .footer {
   background: white;
   padding: 64px;
@@ -574,5 +557,4 @@
   color: var(--primary-color);
   font-weight: bold;
 }
-
 /* footer end  */
