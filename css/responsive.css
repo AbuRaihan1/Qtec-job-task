@@ -94,6 +94,16 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .online-session {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .online-session-text-side h2 {
+    font-size: 26px;
+  }
+
+  
+
   /* notification section  */
   .notification-subscription {
     padding: 48px 70px;
@@ -140,6 +150,27 @@
   }
   .article-blog h2 {
     font-size: 30px;
+  }
+
+  /* get complimentery online start  */
+
+  .online-session {
+    flex-direction: column-reverse;
+    gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .online-session-text-side {
+    padding-left: 20px;
+    /* padding-right: 40px; */
+  }
+
+  .online-session-img-side img {
+    width: 100%;
+  }
+
+  .online-session-text-side h2 {
+    margin-top: 0;
   }
 
   /* notification start  */

@@ -408,6 +408,57 @@
   width: 250px;
 }
 
+/* online mockup complimentary start  */
+
+.online-session {
+  border-radius: 24px;
+  background: #faf8f6;
+  box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.04);
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 0 85px;
+  margin-bottom: 96px;
+  /* align-items: center; */
+}
+
+.online-session-text-side {
+  padding: 64px;
+}
+
+.online-session-text-side h2 {
+  color: #333461;
+  font-family: "Kumbh Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  margin-top: 81px;
+}
+
+.online-session-text-side p {
+  color: rgba(74, 85, 108, 0.5);
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.online-session-text-side button {
+  width: 250px;
+}
+
+/* .online-session-img-side {
+  height: 512px;
+} */
+
+.online-session-img-side img {
+  margin-top: 80px;
+  border-radius: 0 0 24px 0;
+  width: 100%;
+}
+/* online mockup complimentary End  */
+
 /* notification subscription start  */
 
 .notification-subscription {
@@ -502,7 +553,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .logo-page-contact-common ul li a:hover {
