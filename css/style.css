@@ -223,6 +223,7 @@
 /* main section starts  */
 
 /* i can help you section start  */
+
 .i-can-help-you {
   background: white;
   display: grid;
@@ -256,3 +257,38 @@
   font-weight: 400;
   margin-bottom: 20px;
 }
+
+/* coaching consultation group coaching start  */
+
+.coaching-consultation {
+  padding: 0 150px;
+  padding-bottom: 61px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  background: white;
+}
+
+.common-class-coaching-consultation {
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+}
+
+.common-class-coaching-consultation h3 {
+  color: #041434;
+  font-family: "Kumbh Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 32px;
+}
+
+.common-class-coaching-consultation p {
+  color: #4a556c;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 16px;
+}
+/* coaching consultation group coaching end  */
